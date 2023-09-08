@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 *{
     font-family: 'Poppins',sans-serif ;
-    background-color: #2F3038 ;
     color: antiquewhite;
 }
 body{
     margin: 0px;
-    overflow: hidden;
+    background-color: #2F3038 ;
+     overflow: hidden; 
 }
 h2{
     font-weight: 300;
@@ -41,10 +41,7 @@ main{
     display: flex;
     justify-content: space-between;
     height: calc(100vh - 100px);
-    margin: 0px 50px;
-    gap: 5px;
-    
-
+    margin: 0px 200px;
 
 }
 
@@ -68,18 +65,42 @@ main div p{
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    background-color: #BC3A80;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
+  
+    background-color: rgb(41,56,75) ;
+    position: fixed;
+    bottom: 0px;
+    right: 400px;
+    z-index: -1;
 }
 .bulle2{
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
     border-radius: 100%;
-    background-color: #BC3A80;
-    position: absolute;
-    z-index: 0;
+    background-color:rgb(41,56,75);
+    position: fixed;
+    z-index:-1;
+    bottom: 200px;
+    right: 500px;
+}
+.bulle3{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color:rgb(41,56,75);
+    position: fixed;
+    z-index:-1;
+    bottom: 100px;
+    right: 0px;
+
+}
+.bulle4{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color:rgb(41,56,75);
+    position: fixed;
+    z-index:-1;
+    bottom:700px;
+    right: 50px;
 
 }
